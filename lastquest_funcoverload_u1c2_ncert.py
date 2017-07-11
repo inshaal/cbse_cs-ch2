@@ -10,9 +10,9 @@ def volume(a,b): #a-radius|b-height
     from math import pi
     volume= pi*(a**2)*b
     return volume
-a=raw_input("Enter side1: ")
-b=raw_input("Enter side2: ")
-c=raw_input("Enter side3: ")
+a=raw_input("Enter dimension1: ")
+b=raw_input("Enter dimension2: ")
+c=raw_input("Enter dimension3: ")
 ta=bool(a)
 tb=bool(b)
 tc=bool(c)
